@@ -1,0 +1,49 @@
+.grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-auto-columns: report(auto-fill, minmax(200px, auto));
+  }
+
+  .grid-container1 {
+  height: 100vh;
+  }
+
+  .grid-item {
+  background-color: grey;
+}
+
+.item-1 {
+  border: 5px orange solid;
+  background-color: #cf556c;
+
+}
+.item-10 {
+  border: 5px green solid;
+  background-color: yellow;
+
+}
+
+.grid-container2 {
+  grid-gap: 5px;
+  grid-auto-columns: report(4, auto);
+  }
+
+  .grid0 {
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-columns: report(auto-fill, minmax(200px, auto));
+    }
+
+    .grid-cont1 {
+    height: 100vh;
+    }
+
+    .grid-item5 {
+    grid-columns: span 2;
+    background-color: grey;
+  }
+
+  .grid-cont2 {
+    grid-gap: 5px;
+    grid-template-columns: 1fr 5fr;
+    }

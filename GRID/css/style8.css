@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+
+.element {
+&-1 {flex: 1 0 100%; align-self: flex-start; order: 1; }
+&-2 {flex: 0 0 30%; order: 2; }
+&-3 {flex: 0 0 30%; order: 5; }
+&-6 {flex: 1 0 100%; align-self: flex-end; order: 6; }
+}
+
+.content {
+  order: 4;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 30%;
+  flex-direction: column;
+}

@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 1fr 200px
+  }
+
+.grid-item {
+  background-color: red;
+}
+
+.item-1 {
+  background-color: #cf556c;
+}
+
+.item-2 {
+  background-color: #8fd3f4;
+}
+
+.item-3 {
+  background-color: #f68084;
+}
